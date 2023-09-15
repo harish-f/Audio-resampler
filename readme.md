@@ -1,24 +1,20 @@
-# Project Title
-
-**Project Name**
+# Audio resampler in python
 
 ## Description
+A simple and easy-to-use audio resampler. I have created this as I realised audio resampling with other apps like Audacity wasn't very straightforward. This may be especially helpful for those who resample wav files recorded from satellites to make them usable to be processed by apps like WXtoIMG to generate an image.
+Note that this was tested and run on python 3.9.13 and hasn't been tested on other versions but should still most likely work.
 
-This README.md file provides an overview of the **Project Name** project. It includes essential information about the project, its purpose, how to get started, and other relevant details.
 
-## Table of Contents (Optional)
+## Usage
 
-You can include a table of contents here if your README is long and contains multiple sections.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Installation
-
-Provide instructions on how to install your project, including any prerequisites. Be sure to include code blocks and command-line examples where necessary.
-
+You'll need the python Librosa audio library to help to process the audio files.
 ```bash
-# Example installation commands
-npm install
+pip3 install librosa
+```
+
+To run the file
+```bash
+python3 resample.py
+```
+
+The program will then ask for your input file and output sample rate. Additionally, it will also ask you if you already have an output file, if you don't it will automatically generate one for you.
