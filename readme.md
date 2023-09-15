@@ -19,3 +19,6 @@ python3 resample.py
 ```
 
 The program will then ask for your input file and output sample rate. Additionally, it will also ask you if you already have an output file, if you don't it will automatically generate one for you.
+
+## Important note!!
+Your input and output files should be in the same folder where your resample.py is run from.
