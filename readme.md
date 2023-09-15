@@ -1,4 +1,4 @@
-# Audio resampler in python
+# Python Audio Resampler
 
 ## Description
 A simple and easy-to-use audio resampler. I have created this as I realised audio resampling with other apps like Audacity wasn't very straightforward. This may be especially helpful for those who resample wav files recorded from satellites to make them usable to be processed by apps like WXtoIMG to generate an image.
